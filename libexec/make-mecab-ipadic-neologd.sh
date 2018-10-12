@@ -64,7 +64,7 @@ if [ ! -e ${BASEDIR}/../build/${ORG_DIC_NAME}.tar.gz ]; then
         exit 1
     fi
 
-    curl --insecure -L "https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7MWVlSDBCSXZMTXM" -o "${ORG_DIC_NAME}.tar.gz"
+    curl --insecure -L "https://drive.google.com/uc?export=download&id=1A2TNeHCOh1zowEJsbg74JinQHonKrRoQ" -o "${ORG_DIC_NAME}.tar.gz"
     if [ $? != 0 ]; then
         echo ""
         echo "$ECHO_PREFIX Failed to download $ORG_DIC_NAME"
